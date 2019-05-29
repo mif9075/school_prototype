@@ -31,8 +31,13 @@ class Member {
 
 }
 
-const miguel = new Member('Miguel', 'Fernandez', 'term2', 'student');
-const yuri = new Member('Yuri', 'Shkoda', 'term2', 'instructor');
+const miguel = new Member('Miguel', 'Fernandez', 'term2', 'Student');
+const yuri = new Member('Yuri', 'Shkoda', 'term2', 'Instructor');
+const jimmy = new Member('Jimmy', '', 'term2', 'Student')
 
 miguel.lunch(45);
 yuri.coding(60);
+jimmy.break(200);
+
+
+console.log('School Information:', school);
