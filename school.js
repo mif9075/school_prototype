@@ -1,5 +1,5 @@
 let school = new Object();
-let members = [];
+// let members = [];
 
 //No constructor for school
 school.address = "630 Ninth Ave, Ste 901, New York, NY 10036"; 
@@ -7,6 +7,7 @@ school.phone = "646-215-2200";
 school.hours = "09:30am-09:00pm";
 school.website = "Codeimmersives.com";
 school.fax = "917-398-9853";
+school.members = [];
 
 class Member {
     constructor(firstName, lastName, term, position, energy){
@@ -37,16 +38,15 @@ class Member {
 const miguel = new Member('Miguel', 'Fernandez', 'term2', 'Student', 50);
 const yuri = new Member('Yuri', 'Shkoda', 'term2', 'Instructor', 50);
 const jimmy = new Member('Jimmy', '', 'term2', 'Student', 50);
-const darth = new Member('Darth', 'Vader', 'term2', 'spy', 50);
 
-members.push(miguel);
-members.push(yuri);
-members.push(jimmy);
+school.members.push(miguel);
+school.members.push(yuri);
+school.members.push(jimmy);
 
 
 // Show all members in array of objects(Students and Instructor of school)
 
-    console.log("Members:", members);
+    console.log("Members:", school.members);
 
 
 // Show Energy Levels - Before and After
