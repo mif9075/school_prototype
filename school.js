@@ -1,4 +1,5 @@
 let school = new Object();
+let members = [];
 
 
 school.address = "630 Ninth Ave, Ste 901, New York, NY 10036"; 
@@ -33,15 +34,32 @@ class Member {
 
 }
 
-const miguel = new Member('Miguel', 'Fernandez', 'term2', 'Student', 75);
-const yuri = new Member('Yuri', 'Shkoda', 'term2', 'Instructor', 75);
-const jimmy = new Member('Jimmy', '', 'term2', 'Student', 75);
+const miguel = new Member('Miguel', 'Fernandez', 'term2', 'Student', 50);
+const yuri = new Member('Yuri', 'Shkoda', 'term2', 'Instructor', 50);
+const jimmy = new Member('Jimmy', '', 'term2', 'Student', 50);
 
-miguel.lunch(45);
-yuri.coding(60);
-jimmy.break(200);
+members.push(miguel);
+members.push(yuri);
+members.push(jimmy);
 
-console.log("Jimmy's Energy is:", jimmy.energy);
+//Show all members in array of objects(Students and Instructor of school)
 
+    // console.log("Members:", members);
 
-console.log('School Information:', school);
+//Show Energy Levels - Before and After
+
+    // console.log("Miguel's Energy is:", miguel.energy);
+    // console.log("Yuri's Energfy is:", yuri.energy);
+    // console.log("Jimmy's Energy is:", jimmy.energy);
+
+    // miguel.lunch(45);
+    // yuri.coding(60);
+    // jimmy.break(100);
+
+    // console.log("Miguel's Energy is:", miguel.energy);
+    // console.log("Yuri's Energfy is:", yuri.energy);
+    // console.log("Jimmy's Energy is:", jimmy.energy);
+
+//Display school object/Information
+
+    // console.log('School Information:', school);
