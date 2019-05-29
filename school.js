@@ -44,12 +44,12 @@ members.push(yuri);
 members.push(jimmy);
 
 
-Show all members in array of objects(Students and Instructor of school)
+// Show all members in array of objects(Students and Instructor of school)
 
     console.log("Members:", members);
 
 
-Show Energy Levels - Before and After
+// Show Energy Levels - Before and After
 
     console.log("Miguel's Energy is:", miguel.energy);
     console.log("Yuri's Energfy is:", yuri.energy);
@@ -63,6 +63,6 @@ Show Energy Levels - Before and After
     console.log("Yuri's Energy is:", yuri.energy);
     console.log("Jimmy's Energy is:", jimmy.energy);
 
-Display school object/Information
+// Display school object/Information
 
     console.log('School Information:', school);
